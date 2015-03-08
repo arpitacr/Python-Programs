@@ -1,5 +1,19 @@
 # DNA Sequence Alignment Program
-# Supports researchers to do DNA alignment by hand
+
+#Scientists measure how closely related a species is by looking at the DNA sequences for key proteins and seeing how similar/dissimilar they are. 
+#If the two sequences of DNA are essentially the same, 
+#the two species are considered to be evolutionarily closer since there is a relationship between changes and time. 
+#This process is called sequence alignment.
+#A scientist can change the alignment by assuming that an insertion or deletion, of one of the bases has occurred. 
+#They could make such a change, called an indel for short, to see if it improves the alignment
+#Assuming two indels, marked as two dashes(-), the alignment is greatly improved. 
+#The scientist would assume that two changes happened, one change in each species.
+
+# This program supports researchers to do DNA alignment by hand
+# This program gives researchers the option to Add an indel, Delete an indel, Score (matches and mismatches between 2 DNA strings are calculated,
+# Matched DNA bases are displayed in lower case while Mismatches are denoted by upper case) and Quit the program
+
+
 import sys
 def dna_seq():
 # Block for prompting users to enter 2 valid DNA strings
